@@ -6,11 +6,14 @@ attr_accessor
 @@all = []
 
 def initialize(name, yrs_experience)
-  @@all <<
+ @name = name 
+ @yrs_experience 
+ @@all << self
+end 
   
-  self 
-  
+def self.all
+  @@all 
 
-end
+end 
 
 end 
